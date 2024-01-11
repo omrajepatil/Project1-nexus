@@ -1,0 +1,133 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.form { 
+  /* max-width: 400px; */
+  /* margin: 0 auto; */
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  
+
+ 
+
+ 
+  }
+
+.asd {
+  display: none;
+}
+
+.asd.visible {
+  display: block;
+}
+
+#login{
+  height: 300px;
+  width: 300px;
+   box-shadow:   2px 8px 15px rgba(5, 5, 5, 5);
+ align-items: center;
+  /* border: 1px solid black; */
+  border-radius: 15px;
+
+}
+#login input{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(194, 195, 217);
+  
+}
+
+#login input:hover{
+  cursor: pointer;
+}
+
+#login button{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(194, 195, 217);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+#login button:hover{
+  cursor: pointer;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+
+}
+#login .switch{
+  color:rgb(17, 3, 3) ;
+}
+
+#login .switch:hover{
+  cursor: pointer;
+
+}
+
+#signup{
+  height: 350px;
+  width: 300px;
+  /* border: 1px solid black; */
+  align-items: center;
+  box-shadow:   2px 8px 15px rgba(5, 5, 5, 5);
+  border-radius: 15px;
+}
+
+#signup input{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(194, 195, 217);
+  
+  
+}
+
+#signup input:hover{
+  cursor: pointer;
+}
+
+#signup button{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(194, 195, 217);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+#signup button:hover{
+  cursor: pointer;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+#signup .switch{
+  color:rgb(13, 2, 2) ;
+  
+}
+
+#signup .switch:hover{
+  cursor: pointer;
+
+}
+
+
+
+
+@media screen and (min-width: 390px) {
+  #login input,
+  #signup input {
+    width: 240px;
+  }
+}
+
+
